@@ -76,8 +76,8 @@ module bottle_clip(ru=13, rl=17.5, ht=26, width=2.5, name="", gap=90,
 					font=font);
 				multicolor(logo_color) translate([0,0,ht*3/4-0.1])
 					rotate([90,0,0])
-					scale([ht/100,ht/100,1])
-					translate([-25,-25,0.5])
+					scale([0.4,0.4,1])
+					translate([-40,-12,0.5])
 					linear_extrude(height=max(ru,rl)*2)
 					import(logo);
 			}

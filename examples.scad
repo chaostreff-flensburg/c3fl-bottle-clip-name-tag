@@ -20,10 +20,11 @@
 
 include <bottle-clip.scad>
 
-$fn=50;   // approximation steps for the cylinders
+$fn=50;   // approximation steps for the cylinde
+
 
 // one name tag for 0.5l Club Mate and similar bottles
-bottle_clip(name="Zero Cool");
+//bottle_clip(name="scammo");
 
 // one default name tag with a different logo.
 //bottle_clip(name="Acid Burn", logo="thing-logos/glider.dxf");
@@ -58,7 +59,7 @@ bottle_clip(name="Zero Cool");
 // (upper radius) and ht (height) to the bottle_clip() module. You can also
 // use the other parameters from above, if you set logo="", then only the text
 // is rendered.
-//bottle_clip(name="Niobe", rl=15, ru=12, ht=16, logo="");
+bottle_clip(name=name, rl=15, ru=12, ht=16, logo="");
 
 // With color:
 //bottle_clip(name="Zero Cool", bg_color="black", text_color="green", logo_color="green");
