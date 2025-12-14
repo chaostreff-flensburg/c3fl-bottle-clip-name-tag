@@ -27,7 +27,7 @@ $fn=50;   // approximation steps for the cylinde
 //bottle_clip(name="scammo");
 
 // one default name tag with a different logo.
-//bottle_clip(name="Acid Burn", logo="thing-logos/glider.dxf");
+bottle_clip(name="C3fl", logo="custom-thing-logos/39C3-Logo-RGB_muted-black.dxf");
 
 // ...or with a different font:
 //bottle_clip(name="Acid Burn", font="write/Letters.dxf");
